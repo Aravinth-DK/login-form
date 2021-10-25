@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+
+html {
+    display: grid;
+    height: 100%;
+    place-items: center;
+    overflow: hidden;
+    background-image: linear-gradient(to right top, #f62b9f, #e344b9, #c959cf, #ab69df, #8777e9, #678bf6, #409cfd, #00abff, #00c3fc, #00d5db, #00e2a7, #91e770);
+}
+.logo{
+    margin-left: 40%;
+    padding-top: 10px;
+    font-size: 60px;
+    color: rgb(16, 162, 219);
+    margin-bottom: 10px;
+}
+.container{
+    max-width: 480px;
+
+}
+.content{
+    width: 100%;
+    background-color:white;
+    border-radius: 10px;
+    
+}
+.title{
+    line-height: 0px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: gray;
+    
+}
+form{
+    padding: 30px 20px 25px 20px;
+}
+.page{
+    height: 45px;
+    margin-bottom: 15px; 
+    position: relative;
+}
+input{
+    height: 100%;
+    width: 100%;
+    padding-left: 50px;
+    border-radius: 10px;
+    border: 1px solid rgb(226, 223, 223);
+    outline: none;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    
+}
+.login-icon{
+    position: absolute;
+    background-image: linear-gradient(to right top, #f62b9f, #e344b9, #c959cf, #ab69df, #8777e9, #678bf6, #409cfd, #00abff, #00c3fc, #00d5db, #00e2a7, #91e770);
+    color: white;
+    width: 45px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px 0 0 10px ;
+}
+
+.button input{
+    padding-left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    background-image: linear-gradient(to right top, #f62b9f, #e344b9, #c959cf, #ab69df, #8777e9, #678bf6, #409cfd, #00abff, #00c3fc, #00d5db, #00e2a7, #91e770); 
+    transition: all 0.3s ease;
+    font-weight: bolder;
+    
+}
+.pass{
+    margin-bottom: 15px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: rgb(57, 160, 207);
+}
+
+.signup-link{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.signup-link a:hover{
+    text-decoration: underline;
+}
+.pass a:hover{
+    text-decoration: underline;
+
+
+    
